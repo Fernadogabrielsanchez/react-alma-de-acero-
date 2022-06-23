@@ -1,5 +1,6 @@
 
 import logo from '../../imagenes/logo.png'
+import CartWidget from './CartWidget'
 
 
 const NavBar = () => {
@@ -12,7 +13,9 @@ const NavBar = () => {
         <li><a href="sass.html">economico</a></li>
         <li><a href="badges.html">medio</a></li>
         <li><a href="collapsible.html">premium</a></li>
+        <li><CartWidget/></li>
       </ul>
+      
     </div>
   </nav>
         
