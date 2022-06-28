@@ -7,7 +7,8 @@ const App = () => {
   return(
     <>
      <NavBar />
-     <ItemListContainer />
+     <ItemListContainer
+     hola = {'alma de acero'} />
     </>
   )
     

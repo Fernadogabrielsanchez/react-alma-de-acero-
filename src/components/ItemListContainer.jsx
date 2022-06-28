@@ -1,6 +1,20 @@
-const ItemListContainer =() =>{
+import ItemCount from '../components/ItemCount'
+
+
+const ItemListContainer =({hola}) =>{
+    const OnAdd = ()=>{
+        console.log(`gracias por tu compra`) 
+       }
+
     return(
-        <h1>alma de acero</h1>
+
+        <>
+         <h1>{hola}</h1>
+        <ItemCount stock = {5} OnAdd={OnAdd} />
+        </>
+       
+        
+
     )
 }
 export default ItemListContainer
