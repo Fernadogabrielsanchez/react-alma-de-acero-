@@ -8,7 +8,7 @@ const App = () => {
     <>
      <NavBar />
      <ItemListContainer
-     hola = {'alma de acero'} />
+     greeting= {'alma de acero'} />
     </>
   )
     
